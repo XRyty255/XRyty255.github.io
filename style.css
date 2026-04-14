@@ -23,6 +23,31 @@ img {
     border-radius: 20px;
 }
 
-#n {
-    border-radius: 150px;
+.c {
+    color: white;
+    font-size: 25px;
+}
+
+.d {
+    color: white;
+    font-size: 35px;
+}
+
+body {
+    background: url("photo_food/fon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.07);
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
