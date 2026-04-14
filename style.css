@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+td,
+th {
+    border: 3px solid black; /*Параметры рамки */
+}
+th {
+    background: rgb(135, 235, 89); /* Цвет фона */
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.new {
+    border-radius: 20px;
+}
+
+#n {
+    border-radius: 150px;
+}
